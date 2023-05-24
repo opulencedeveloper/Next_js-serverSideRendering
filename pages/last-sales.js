@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 
-//Here we are fetching data on the client and pre-rendering the fetching the data on the server
 const LastSalesPage = (props) => {
-  //props.sales is the initial State of the page, before it is updated from the client
   const [sales, setSales] = useState(props.sales);
   const [isLoading, setIsLoading] = useState();
 

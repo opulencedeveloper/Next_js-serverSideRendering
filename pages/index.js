@@ -1,4 +1,3 @@
-//any import used in getStaticProps or getServerSideProps won't be visible on the client
 import fs from "fs/promises";
 import Link from "next/link";
 import path from "path";
